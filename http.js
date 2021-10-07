@@ -34,6 +34,7 @@ var server = http.createServer(async function (req, res) {
                     console.log(`[UNKNOWN] Blacklisted Connection (${ip})`);
                 }
             }
+            return req.connection.destroy();
         }
     }
 })
