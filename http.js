@@ -16,7 +16,7 @@ var server = http.createServer(async function (req, res) {
         if (req.method == "POST") {
             lihat++;
             console.log(`[${lihat}] - [GROWTOPIA] ${ip} Login to server`)
-            res.write('server|127.0.0.1\nport|17091\ntype|1\n#maint|Simple HTTP Server by NodeJS ~GalvinID \n\nbeta_server|127.0.0.1\nbeta_port|17092\n\nbeta_type|1\nmeta|localhost\nRTENDMARKERBS1001');
+            res.write('server|127.0.0.1\nport|17091\ntype|1\n#maint|Simple HTTP Server by NodeJS ~NumeX \n\nbeta_server|127.0.0.1\nbeta_port|17092\n\nbeta_type|1\nmeta|localhost\nRTENDMARKERBS1001');
             res.end();
         }
         else {
