@@ -1,6 +1,5 @@
 // Module Require
 var http = require('http');
-var req = require('request');
 var blacklist = new Map();
 var lihat = 0;
 
