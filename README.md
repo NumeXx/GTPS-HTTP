@@ -9,5 +9,9 @@
 ## TO DO
 - Support Costume Item
 
+## Change Log
+- v1.0.1 (Add IP Banned)
+> Credit : DafaFlare
+
 ## NumeX
 <center><p>NO COL1 NO LIF3</p></center>
