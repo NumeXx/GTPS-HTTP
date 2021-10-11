@@ -37,7 +37,21 @@ var server = http.createServer(async function (req, res) {
             return req.connection.destroy();
         }
     }
-})
+    else {
+        // IP Banned (Credit : DafaFlareX)
+        process.env.BLACKLIST
+        const banned = [ip];
+        banned.forEach(ip => {
+            if (ip === ip) {
+                return res.writeHead(200);
+            }
+            else {
+                return res.end("Banned LOL");
+            }
+        });
+        return req.connection.destroy();
+    }
+});
 
 server.listen(80);
 server.on("connection", async function (socket) {
